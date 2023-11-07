@@ -14,7 +14,7 @@ Skiss hittar du [här](https://www.figma.com/file/Snw8n1gba7Mbk6TCLEAB1A/JS-%2F-
 **Base URL**
 
 ```
-https://fathomless-shelf-54969.herokuapp.com/
+https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 ```
 
 **Methods**
