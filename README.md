@@ -92,4 +92,4 @@ let resp = await fetch("https://fathomless-shelf-54969.herokuapp.com/bodies", {
 
 ## Inlämning
 
-Inlämning sker senast _Fredag 18 nov 12.00_ via en länk till ditt githubrepo på Learnpoint.
+Inlämning sker senast _Fredag 17 nov 23.59_ via en länk till ditt githubrepo på Learnpoint.
