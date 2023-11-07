@@ -32,7 +32,7 @@ För att få läsrättigheter måste du i din request bifoga headern `x-zocom` m
 Ex.
 
 ```js
-let resp = await fetch("https://fathomless-shelf-54969.herokuapp.com/bodies", {
+let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/", {
   method: "GET",
   headers: { "x-zocom": "<solaris-key-here>" },
 });
