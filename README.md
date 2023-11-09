@@ -36,6 +36,7 @@ let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 För att få läsrättigheter måste du i din request bifoga headern `x-zocom` med en giltig API-nyckel.
 
 **Hämtar planeter**
+
 Ex.
 
 ```js
@@ -86,7 +87,7 @@ let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 
 **Godkänt**
 
-- Att det ser ut enligt skiss.
+- Att det ser ut enligt skiss. Viss variation i färger etc är okej.
 - Att API:et används.
 - Sidan fungerar med inga fel i konsolen i developer tools.
 - Vettiga namn på variabler etc på engelska.
@@ -94,7 +95,7 @@ let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 **Väl godkänt**
 
 - Allt i godkänt.
-- Att din kod är uppdelad i tydliga funktioner med vettiga namn.
+- Att din kod är uppdelad i tydliga funktioner med vettiga namn. Skriv en kommentar om vad varje funktion gör.
 - Inga hårdkodade API-nycklar utan det ska alltid göras ett anrop för att få en API-nyckel först, innan varje anrop.
 
 ## Inlämning
