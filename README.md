@@ -26,6 +26,8 @@ https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 
 API:et är låst med en API-nyckel. Alla GET-request utan en sådan kommer genera en `401`.
 
+API-nyckel som kan användas för godkänt: `solaris-1Cqgm3S6nlMechWO`.
+
 **Hämtar en API-nyckel**
 ```js
 let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/keys", {
