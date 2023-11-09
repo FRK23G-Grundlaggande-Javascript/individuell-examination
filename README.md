@@ -26,12 +26,20 @@ https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/
 
 API:et är låst med en API-nyckel. Alla GET-request utan en sådan kommer genera en `401`.
 
+**Hämtar en API-nyckel**
+```js
+let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/keys", {
+  method: "POST"
+});
+```
+
 För att få läsrättigheter måste du i din request bifoga headern `x-zocom` med en giltig API-nyckel.
 
+**Hämtar planeter**
 Ex.
 
 ```js
-let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/", {
+let resp = await fetch("https://n5n3eiyjb0.execute-api.eu-north-1.amazonaws.com/bodies", {
   method: "GET",
   headers: { "x-zocom": "<solaris-key-here>" },
 });
