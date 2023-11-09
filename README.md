@@ -7,7 +7,7 @@ i någon form av "overlay". Se skiss nedan.
 
 ## UI
 
-Skiss hittar du [här](https://www.figma.com/file/Snw8n1gba7Mbk6TCLEAB1A/JS-%2F-Solaris?node-id=0%3A1)).
+Skiss hittar du [här](https://www.figma.com/file/Snw8n1gba7Mbk6TCLEAB1A/JS-%2F-Solaris?node-id=0%3A1).
 
 ## API
 
